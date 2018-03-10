@@ -1,0 +1,19 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "~4.0.0",
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "method-override": "~1.0.0"
+  },
+  "keywords": [
+    "RestApi",
+    "Angular",
+    "w3css",
+    "nodejs"
+  ],
+  "author": "Adelaja Ibrahim Abiola (AiA)",
+  "license": "ISC",
+  "description": "A Restful Api using  angular $http service .get and .post in nodejs"
+}
