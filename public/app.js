@@ -16,6 +16,9 @@ angular
    books();
    
  self.addItem = function(){
+  if(!self.name.title){
+   return;
+  }
   console.log(self.name);
   $http.post('api/book', self.name)
    .then(function(response){
